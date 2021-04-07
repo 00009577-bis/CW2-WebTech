@@ -1,0 +1,126 @@
+:root {
+	font-size: 18px;
+	color: #8B0000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	font-family: Courier New;
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	color: #008B8B;
+}
+
+.navbar {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	border-bottom: 1px dotted #ccc;
+	padding: 15px;
+	
+}
+
+.nav a {
+	display: inline-block;
+	padding: 5px 10px;
+
+}
+
+/* homepage styles */
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.intro-msg {
+	font-family: Courier New;
+	padding: 100px 0 30px 0;
+	font-size: 2rem;
+	max-width: 60%;
+
+}
+
+.featured {
+	font-family: Tahoma;
+	display: inline-block;
+	padding: 10px 20px;
+	background:#8B0000; 
+	color:#008B8B;
+
+}
+
+/* create page styles*/
+
+.form{
+	max-width: 60%;
+}
+
+.input{
+	width: 100%;
+	display:block;
+	padding: 10px;
+	font-size: 1.3rem;
+	font-family: inherit;
+	border:1px solid #ccc;
+	margin-bottom: 20px;
+
+}
+
+.btn{
+	display: inline-block;
+	background: #8B0000;
+	color: #008B8B;
+	font-size: 1.3rem;
+	border:none;
+	padding: 10px 20px;
+	font-family: inherit;
+
+}
+
+/* post list page styles*/
+
+.post-wrapper{
+	max-width: 60%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+}
+
+.post{
+	font-size: 1.3rem;
+}
+
+.delete{
+	display: inline-block;
+	padding: 5px 10px;
+	background: #8B0000;
+	color:#008B8B;
+}
+
+.error {
+	display: inline-block;
+	padding: 10px;
+	border:1px solid red;
+	font-size: 1.2rem;
+	color: red;
+}
+
+.success {
+	display: inline-block;
+	padding: 10px;
+	border:1px solid green;
+	font-size: 1.2rem;
+	color: green;
+}

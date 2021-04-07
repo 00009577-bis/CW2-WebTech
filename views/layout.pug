@@ -1,0 +1,15 @@
+html
+  head
+    title Blog app
+    link(rel='stylesheet' href='/static/style.css')
+
+  body
+    header.navbar
+      h1
+        a(href='/') Blog App
+
+      nav.nav
+        a(href='/posts') All posts
+        a(href='archive') Archive
+
+    block content 
